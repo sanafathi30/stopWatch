@@ -64,3 +64,9 @@ body {
     cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
 }
+
+.buttons button.active,
+.buttons button.stopActive {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
